@@ -170,7 +170,7 @@ def run(
                     if save_img or save_crop or view_img:  # Add bbox to image
                         c = int(cls)  # integer class
                         # label = None if hide_labels else (names[c] if hide_conf else f'{names[c]} {conf:.2f}')
-                        # Add XY Position Value on label
+                        # Add XY Position Value on label by Sumin Lee on 2023/07/25
                         label = None if hide_labels else (names[c] if hide_conf else f'{names[c]} {conf:.2f} ({xyxy[0]}, {xyxy[1]})')
                         annotator.box_label(xyxy, label, color=colors(c, True))
                     if save_crop:
