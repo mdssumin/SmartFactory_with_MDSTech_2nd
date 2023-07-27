@@ -1,6 +1,6 @@
 # SmartFactory_with_MDSTech_2nd
 
-SW인재양성 2차 스마트팩토리 수업 과제물 관리를 위한 Github입니다.
+SW인재양성 2차 MDS테크 주도 스마트팩토리 프로젝트 과제물 관리를 위한 Github입니다.
 
 * 개인프로젝트
   
